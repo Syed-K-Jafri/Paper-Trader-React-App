@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Navbar from "./Navbar";
+import Graph from './Graph';
 
 /*Below is the flexbox way to design the page using tailwind
 
@@ -30,7 +31,7 @@ export default function App() {
     <div class="grid grid-cols-12 gap-0 w-3/4 h-96 m-auto">
 
       <div className={"col-span-12 md:col-span-7 border-2 border-black flex justify-center "}>
-      </div>
+      <Graph /></div>
 
       <div className={"col-span-12 md:col-span-5 border-2 border-black flex justify-center "}>
       </div>
